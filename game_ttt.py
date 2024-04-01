@@ -53,23 +53,23 @@ def enter_Value():
         else:
             user2=int(input("User2 Turn => "))
             if user2==1:
-                a="O"
+                a="-"
             elif user2==2:
-                b="O"
+                b="-"
             elif user2==3:
-                c="O"
+                c="-"
             elif user2==4:
-                d="O"
+                d="-"
             elif user2==5:
-                e="O"
+                e="-"
             elif user2==6:
-                f="O"
+                f="-"
             elif user2==7:
-                g="O"
+                g="-"
             elif user2==8:
-                h="O"
+                h="-"
             else:
-                i="O"
+                i="-"
             turn+=1
             turn_list.append(user2)
             user2_list.append(user2)
@@ -86,7 +86,7 @@ def win_list():
     win6=[3,6,9]
     win7=[1,5,9]
     win8=[3,5,7]
-    if user1==win1:
+    # if user1==win1:
         
 
 
